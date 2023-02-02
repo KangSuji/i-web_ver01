@@ -520,7 +520,7 @@ font-family: Pretendard
   box-sizing: border-box;
   background-color: #afafaf;
   position: relative;
-  cursor: grab;
+  /* cursor: grab; */
 }
 .sec04slide__text {
   position: absolute;
@@ -571,6 +571,9 @@ font-family: Pretendard
   color: #fff;
   box-sizing: border-box;
   margin-top: 45px;
+  font-family: Pretendard;
+  font-size: 1rem;
+  font-weight: 400;
 }
 .main-sec04__arr {
   display: flex;
