@@ -381,6 +381,7 @@ font-family: Pretendard
 .slide-text__wrap p {
   margin-bottom: 50px;
   font-family: Pretendard;
+  text-shadow: rgb(0 0 0 / 50%) 2px 2px 2px;
 }
 .slide-text01 {
   font-size: 45px;
@@ -807,4 +808,36 @@ font-family: Pretendard
 }
 .license span {
   vertical-align: middle;
+}
+
+/************************************
+    navigation (remote)
+*************************************/
+
+.remote__nav {
+  position: fixed;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  z-index: 9;
+}
+.remote__nav > a {
+  padding: 50px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  writing-mode: vertical-lr;
+  color: #fff;
+  font-family: Pretendard;
+  font-size: 1rem;
+}
+.remote__customers {
+  background-color: var(--color-main);
+}
+.remote__form {
+  background-color: #8a8a8a;
 }
