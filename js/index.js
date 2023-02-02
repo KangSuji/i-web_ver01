@@ -8,6 +8,16 @@ $(document).ready(function () {
   $(".header ").on("mouseleave", function (event) {
     event.preventDefault();
     $(".header").removeClass("over");
+    $(".header").removeClass("mypage");
+  });
+
+  $(".member__wrap .mypage__btn").on("mouseenter", function (event) {
+    event.preventDefault();
+    $(".header").addClass("mypage");
+  });
+  $(".dep1_a").on("mouseenter", function (event) {
+    event.preventDefault();
+    $(".header").removeClass("mypage");
   });
   //모바일 gnb depth2
 

@@ -12,6 +12,15 @@
     <link rel="stylesheet" href="/css/index.css" />
     <link rel="stylesheet" href="/css/responsive.css" />
 
+    <!--hover css-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css"
+      integrity="sha512-SJw7jzjMYJhsEnN/BuxTWXkezA2cRanuB8TdCNMXFJjxG9ZGSKOX5P3j03H6kdMxalKHZ7vlBMB4CagFP/de0A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
     <!-- Jquery-->
     <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.12.4.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
@@ -95,6 +104,35 @@
             <li><a href="javascript:void(0)">회원가입</a></li>
             <li>
               <a href="javascript:void(0)"><span class="mypage__btn">My서비스</span></a>
+              <div class="header__mypage">
+                <p>MY 서비스</p>
+                <div class="mypage__center">
+                  <ul>
+                    <li>홈페이지 기간연장</li>
+                    <li>도메인구입</li>
+                    <li>도메인 기간연장</li>
+                    <li>추가요금결제</li>
+                  </ul>
+                  <ul>
+                    <li>홈페이지 기간연장</li>
+                    <li>도메인구입</li>
+                    <li>도메인 기간연장</li>
+                    <li>추가요금결제</li>
+                  </ul>
+                  <ul>
+                    <li>홈페이지 기간연장</li>
+                    <li>도메인구입</li>
+                    <li>도메인 기간연장</li>
+                    <li>추가요금결제</li>
+                  </ul>
+                  <ul>
+                    <li>홈페이지 기간연장</li>
+                    <li>도메인구입</li>
+                    <li>도메인 기간연장</li>
+                    <li>추가요금결제</li>
+                  </ul>
+                </div>
+              </div>
             </li>
           </ul>
         </div>
@@ -268,8 +306,13 @@
       </section>
 
       <section class="main__section02">
+        <style>
+          .hvr-sweep-to-top:before {
+            background: var(--color-main);
+          }
+        </style>
         <div class="pay__wrap section__inner">
-          <div class="pay__box">
+          <a href="javascript:void(0)" class="pay__box hvr-sweep-to-top hvr-sweep-to-top">
             <div class="box__top">
               <p class="box-text__title">무료형</p>
               <p class="box-text__pay">0원</p>
@@ -278,8 +321,8 @@
             <div class="box__bottom">
               <p>원하는 스킨 디자인에서 메인 및 서브페이지 직접 수정 가능</p>
             </div>
-          </div>
-          <div class="pay__box">
+          </a>
+          <a href="javascript:void(0)" class="pay__box hvr-sweep-to-top">
             <div class="box__top">
               <p class="box-text__title">알뜰형</p>
               <p class="box-text__pay">20만원</p>
@@ -292,8 +335,8 @@
                 <li><img src="/images/check.svg" /> 제작기간: 3 ~ 4일</li>
               </ul>
             </div>
-          </div>
-          <div class="pay__box">
+          </a>
+          <a href="javascript:void(0)" class="pay__box hvr-sweep-to-top">
             <div class="box__top">
               <p class="box-text__title">보급형</p>
               <p class="box-text__pay">40만원</p>
@@ -307,8 +350,8 @@
                 <li><img src="/images/check.svg" /> 제작기간: 7 ~ 10일</li>
               </ul>
             </div>
-          </div>
-          <div class="pay__box">
+          </a>
+          <a href="javascript:void(0)" class="pay__box hvr-sweep-to-top">
             <div class="box__top">
               <p class="box-text__title">맞춤형</p>
               <p class="box-text__pay">90만원</p>
@@ -322,8 +365,8 @@
                 <li><img src="/images/check.svg" /> 제작기간: 20일</li>
               </ul>
             </div>
-          </div>
-          <div class="pay__box">
+          </a>
+          <a href="javascript:void(0)" class="pay__box hvr-sweep-to-top">
             <div class="box__top">
               <p class="box-text__title">고급형</p>
               <p class="box-text__pay">200만원</p>
@@ -338,8 +381,8 @@
                 <li><img src="/images/check.svg" /> 제작기간: 20일</li>
               </ul>
             </div>
-          </div>
-          <div class="pay__box">
+          </a>
+          <a href="javascript:void(0)" class="pay__box hvr-sweep-to-top">
             <div class="box__top">
               <p class="box-text__title">독립형</p>
               <p class="box-text__pay">상담후</p>
@@ -348,7 +391,7 @@
             <div class="box__bottom">
               <p>메인 및 서브페이지 디자인 별도 견적 후 진행</p>
             </div>
-          </div>
+          </a>
         </div>
       </section>
 
